@@ -1,0 +1,28 @@
+body{
+    background-color: #2121;
+    height: 100vh;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: helvetica;
+    color: #ffffff;
+    font-size: 10rem;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite
+    alternate;
+
+}
+
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #ffffff;
+    }
+    to{
+        text-shadow: 0 0 30px #ffffff,
+                    0 0 10px #ffffff;
+                    }
+}
